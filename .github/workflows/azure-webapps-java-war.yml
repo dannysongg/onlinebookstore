@@ -80,5 +80,4 @@ jobs:
           package: '*.war'
           type: war
           clean: true
-          target-path: test.war
 
