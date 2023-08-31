@@ -72,7 +72,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
-        uses: dannysong/webapps-deploy-ds@enable-onedeploy
+        uses: dannysongg/webapps-deploy-ds@enable-onedeploy
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
